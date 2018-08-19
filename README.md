@@ -1,4 +1,9 @@
 # byte_of_python
-Python 简明教程
 
-https://pythoncaff.com/docs/byte-of-python/2018[https://pythoncaff.com/docs/byte-of-python/2018]
+## A Byte of Python ##
+https://python.swaroopch.com/
+
+
+## Python 简明教程 ##
+中文翻译
+https://pythoncaff.com/docs/byte-of-python/2018
