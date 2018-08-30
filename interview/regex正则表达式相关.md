@@ -1,4 +1,4 @@
-### 正则表达式 re 模块
+## 正则表达式 re 模块
 
 #### match()和search()的区别
 > re模块中match(pattern,string[,flags]),检查string的开头是否与pattern匹配。
