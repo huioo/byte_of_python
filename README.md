@@ -1,5 +1,7 @@
 # byte_of_python
-> Python 简明教程
+> Python 简明教程  
+>
+> 本项目Python版本为3.6.5
 
 ## A Byte of Python ##
 原文开源地址：
