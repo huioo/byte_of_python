@@ -4,6 +4,10 @@ class Robot:
     # 类属性，统计机器人的个数
     population = 0
 
+    def __new__(cls, name):
+        self = object.__new__(cls)
+        return self
+        
     def __init__(self, name):
         """初始化数据"""
         self.name = name
@@ -35,6 +39,15 @@ class Robot:
     def how_many(cls):
         """显示当前人口数。"""
         print("We have {:d} robots.".format(cls.population))
+
+    # def how_many(self):
+    #     """显示当前人口数。"""
+    #     print("We have {:d} robots.".format(Robot.population))
+
+    # @staticmethod
+    # def how_many():
+    #     """显示当前人口数。"""
+    #     print("We have {:d} robots.".format(Robot.population))
 
 
 droid1 = Robot("R2-D2")
